@@ -178,7 +178,7 @@ The scaling $S$ stretches the plane only in the direction of the $x_1$-axis, by 
 
 In the first case the stretching is applied along the original horizontal direction and then rotated together with the vector. In the second case the stretching is applied along the horizontal direction after the rotation, that is, along the direction that was originally vertical. These are different directions relative to the vector, so the final vectors differ.
 
-A rotation commutes with a scaling only when the scaling is uniform, that is, when it has the form $cI$. Here the scaling factors $2$ and $1$ differ, so the order of the transformations matters.
+For this $90^\circ$ rotation, scaling along the coordinate axes commutes with $R$ exactly when the two scale factors are equal. Here the factors are $2$ and $1$, so the transformations do not commute, as the calculations show. This statement is specific to a $90^\circ$ rotation: a $180^\circ$ rotation is $-I$ and commutes even with nonuniform diagonal scaling.
 
 **Conclusion**
 

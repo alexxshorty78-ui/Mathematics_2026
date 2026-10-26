@@ -108,4 +108,4 @@ $$
 (AB)^T=B^TA^T.
 $$
 
-Note that the product $A^TB^T$ is not even defined here, since $A^T$ is of size $3\times2$ and $B^T$ is of size $2\times3$ would give a $3\times3$ matrix of a different shape from $(AB)^T$. The order of the factors must therefore be reversed when a transpose is taken of a product.S
+The product $A^TB^T$ is defined: $A^T$ has size $3\times2$ and $B^T$ has size $2\times3$, so $A^TB^T$ has size $3\times3$. This differs in size from $(AB)^T$, which has size $2\times2$. The correct transpose identity reverses the order of the factors: $(AB)^T=B^TA^T$.

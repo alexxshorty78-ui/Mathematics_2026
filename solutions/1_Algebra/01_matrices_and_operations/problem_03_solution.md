@@ -73,4 +73,4 @@ Here $D$ is $2\times2$ and $A$ is $2\times3$. The inner dimensions are $2$ and $
 | $AD$ | $2\times3$, $2\times2$ | no | not defined |
 | $DA$ | $2\times2$, $2\times3$ | yes | $2\times3$ |
 
-The defined products are $AB$, $BC$, $CA$, and $DA$. Note that $AB$ is defined while $BA$ is not, and likewise for $BC$ and $CB$. Matrix multiplication is therefore not commutative in general, since one order of a product may exist while the other does not.S
+The defined products are $AB$, $BC$, $CA$, and $DA$. Note that $AB$ is defined while $BA$ is not, and likewise for $BC$ and $CB$. Matrix multiplication is therefore not commutative in general, since one order of a product may exist while the other does not.

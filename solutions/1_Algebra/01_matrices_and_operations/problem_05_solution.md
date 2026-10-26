@@ -114,4 +114,4 @@ $$
 Ax = x_1a_1+x_2a_2+\dots+x_na_n.
 $$
 
-Consequently, $Ax$ always lies in the span of the columns of $A$.S
+Consequently, $Ax$ always lies in the span of the columns of $A$.

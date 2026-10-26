@@ -76,4 +76,4 @@ Matrix multiplication is called noncommutative because the order of the factors 
 
 In this example both products exist and have the same size, yet they differ. This shows that the failure of commutativity is not only a matter of dimensions (as in Exercise 3, where $AB$ could exist while $BA$ did not), but occurs even for square matrices of the same size.
 
-Consequently, the expressions "multiply $A$ by $B$ on the right" and "multiply $A$ by $B$ on the left" describe different operations. A single example with $AB\neq BA$ is enough to show that commutativity does not hold in general. It does not exclude that some particular pairs of matrices satisfy $AB=BA$.S
+Consequently, the expressions "multiply $A$ by $B$ on the right" and "multiply $A$ by $B$ on the left" describe different operations. A single example with $AB\neq BA$ is enough to show that commutativity does not hold in general. It does not exclude that some particular pairs of matrices satisfy $AB=BA$.
