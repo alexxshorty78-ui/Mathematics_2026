@@ -41,12 +41,20 @@ $$
 2 & 1 & \mid & 5 \\
 1 & -1 & \mid & 1 \\
 \end{pmatrix}
-\xrightarrow{R_1\leftrightarrow R_2}
+$$
+
+Apply $R_1\leftrightarrow R_2$:
+
+$$
 \begin{pmatrix}
 1 & -1 & \mid & 1 \\
 2 & 1 & \mid & 5 \\
 \end{pmatrix}
-\xrightarrow{R_2\leftarrow R_2-2R_1}
+$$
+
+Apply $R_2\leftarrow R_2-2R_1$:
+
+$$
 \begin{pmatrix}
 1 & -1 & \mid & 1 \\
 0 & 3 & \mid & 3 \\
@@ -70,12 +78,20 @@ $$
 2 & 1 & \mid & 1 \\
 1 & -1 & \mid & 4 \\
 \end{pmatrix}
-\xrightarrow{R_1\leftrightarrow R_2}
+$$
+
+Apply $R_1\leftrightarrow R_2$:
+
+$$
 \begin{pmatrix}
 1 & -1 & \mid & 4 \\
 2 & 1 & \mid & 1 \\
 \end{pmatrix}
-\xrightarrow{R_2\leftarrow R_2-2R_1}
+$$
+
+Apply $R_2\leftarrow R_2-2R_1$:
+
+$$
 \begin{pmatrix}
 1 & -1 & \mid & 4 \\
 0 & 3 & \mid & -7 \\
