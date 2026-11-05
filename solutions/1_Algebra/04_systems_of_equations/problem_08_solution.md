@@ -7,14 +7,14 @@ Solve by elimination the two systems
 $$
 \begin{cases}
 2x+y=5, \\
-x-y=1,
+x-y=1, \\
 \end{cases}
 $$
 
 $$
 \begin{cases}
 2x+y=1, \\
-x-y=4.
+x-y=4. \\
 \end{cases}
 $$
 
@@ -25,7 +25,11 @@ Compare the successive elimination steps. Which part of the calculation is the s
 Both systems have coefficient matrix
 
 $$
-A=\begin{pmatrix}2&1\\1&-1\end{pmatrix}.
+A=
+\begin{pmatrix}
+2 & 1 \\
+1 & -1 \\
+\end{pmatrix}.
 $$
 
 ### First system
@@ -33,17 +37,26 @@ $$
 Swap the rows to use a leading coefficient of $1$, then apply $R_2\leftarrow R_2-2R_1$:
 
 $$
-\left[\begin{array}{cc|c}2&1&5\\1&-1&1\end{array}\right]
+\begin{pmatrix}
+2 & 1 & \mid & 5 \\
+1 & -1 & \mid & 1 \\
+\end{pmatrix}
 \xrightarrow{R_1\leftrightarrow R_2}
-\left[\begin{array}{cc|c}1&-1&1\\2&1&5\end{array}\right]
+\begin{pmatrix}
+1 & -1 & \mid & 1 \\
+2 & 1 & \mid & 5 \\
+\end{pmatrix}
 \xrightarrow{R_2\leftarrow R_2-2R_1}
-\left[\begin{array}{cc|c}1&-1&1\\0&3&3\end{array}\right].
+\begin{pmatrix}
+1 & -1 & \mid & 1 \\
+0 & 3 & \mid & 3 \\
+\end{pmatrix}.
 $$
 
 Thus $y=1$ and $x-y=1$ gives $x=2$:
 
 $$
-\boxed{(x,y)=(2,1)}.
+(x,y)=(2,1).
 $$
 
 Check: $2(2)+1=5$ and $2-1=1$.
@@ -53,17 +66,26 @@ Check: $2(2)+1=5$ and $2-1=1$.
 Use exactly the same row operations:
 
 $$
-\left[\begin{array}{cc|c}2&1&1\\1&-1&4\end{array}\right]
+\begin{pmatrix}
+2 & 1 & \mid & 1 \\
+1 & -1 & \mid & 4 \\
+\end{pmatrix}
 \xrightarrow{R_1\leftrightarrow R_2}
-\left[\begin{array}{cc|c}1&-1&4\\2&1&1\end{array}\right]
+\begin{pmatrix}
+1 & -1 & \mid & 4 \\
+2 & 1 & \mid & 1 \\
+\end{pmatrix}
 \xrightarrow{R_2\leftarrow R_2-2R_1}
-\left[\begin{array}{cc|c}1&-1&4\\0&3&-7\end{array}\right].
+\begin{pmatrix}
+1 & -1 & \mid & 4 \\
+0 & 3 & \mid & -7 \\
+\end{pmatrix}.
 $$
 
 Thus $y=-7/3$ and $x-y=4$ gives $x=4-7/3=5/3$:
 
 $$
-\boxed{(x,y)=\left(\frac53,-\frac73\right)}.
+(x,y)=\left(\frac53,-\frac73\right).
 $$
 
 Check:
