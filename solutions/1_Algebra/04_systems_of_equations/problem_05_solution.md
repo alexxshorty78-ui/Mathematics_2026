@@ -20,9 +20,9 @@ The matrix represents
 
 $$
 \begin{cases}
-x+2y-z=3,\\
-y+2z=1,\\
-0=0.
+x+2y-z=3, \\
+y+2z=1, \\
+0=0. \\
 \end{cases}
 $$
 
@@ -39,7 +39,7 @@ $$
 Therefore there are infinitely many solutions:
 
 $$
-\boxed{(x,y,z)=(1+5t,1-2t,t),\qquad t\in\mathbb{R}}.
+(x,y,z)=(1+5t,1-2t,t),\qquad t\in\mathbb{R}.
 $$
 
 **Check:**
