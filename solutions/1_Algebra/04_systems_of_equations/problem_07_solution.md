@@ -9,7 +9,7 @@ Do not solve all of the following systems completely. For each situation, choose
 $$
 \begin{cases}
 2x-y=3, \\
-4y=8;
+4y=8; \\
 \end{cases}
 $$
 
@@ -39,7 +39,7 @@ $$
 Thus
 
 $$
-\boxed{(x,y)=\left(\frac52,2\right)}.
+(x,y)=\left(\frac52,2\right).
 $$
 
 The check is $2(5/2)-2=3$ and $4(2)=8$. No elimination or inverse calculation is necessary because the system is already triangular.
@@ -55,8 +55,7 @@ $$
 The same inverse is reused for all three right-hand sides. Equivalently, multiply once by the matrix containing all three columns:
 
 $$
-[\mathbf{x}_1\ \mathbf{x}_2\ \mathbf{x}_3]
-=
+[\mathbf{x}_1\ \mathbf{x}_2\ \mathbf{x}_3] =
 A^{-1}[\mathbf{b}_1\ \mathbf{b}_2\ \mathbf{b}_3].
 $$
 
