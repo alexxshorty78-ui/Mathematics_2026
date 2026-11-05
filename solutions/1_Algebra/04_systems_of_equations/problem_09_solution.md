@@ -21,7 +21,7 @@ $$
 so $3y=12$ and $y=4$. Then $x=10-4=6$. Therefore
 
 $$
-\boxed{(x,y)=(6,4)}.
+(x,y)=(6,4).
 $$
 
 **Check:**
