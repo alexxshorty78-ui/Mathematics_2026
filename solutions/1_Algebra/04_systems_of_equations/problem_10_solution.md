@@ -20,9 +20,9 @@ Thus the coefficients satisfy the linear system
 
 $$
 \begin{cases}
-c=1,\\
-a+b+c=3,\\
-4a+2b+c=9.
+c=1, \\
+a+b+c=3, \\
+4a+2b+c=9. \\
 \end{cases}
 $$
 
@@ -37,7 +37,7 @@ Then $b=2-a=0$. Therefore
 $$
 (a,b,c)=(2,0,1),
 \qquad
-\boxed{p(x)=2x^2+1}.
+p(x)=2x^2+1.
 $$
 
 These elimination steps determine all three coefficients uniquely.
