@@ -22,7 +22,11 @@ $$
 1 & 1 & \mid & 2 \\
 a & a & \mid & 4 \\
 \end{pmatrix}
-\xrightarrow{R_2\leftarrow R_2-aR_1}
+$$
+
+Apply $R_2\leftarrow R_2-aR_1$:
+
+$$
 \begin{pmatrix}
 1 & 1 & \mid & 2 \\
 0 & 0 & \mid & 4-2a \\
