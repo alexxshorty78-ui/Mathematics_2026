@@ -55,8 +55,13 @@ $$
 The same inverse is reused for all three right-hand sides. Equivalently, multiply once by the matrix containing all three columns:
 
 $$
-[\mathbf{x}_1\ \mathbf{x}_2\ \mathbf{x}_3] =
-A^{-1}[\mathbf{b}_1\ \mathbf{b}_2\ \mathbf{b}_3].
+\begin{pmatrix}
+\mathbf{x}_1 & \mathbf{x}_2 & \mathbf{x}_3 \\
+\end{pmatrix} =
+A^{-1}
+\begin{pmatrix}
+\mathbf{b}_1 & \mathbf{b}_2 & \mathbf{b}_3 \\
+\end{pmatrix}.
 $$
 
 There is no need to recompute the inverse or perform a separate elimination from the beginning for each system.
