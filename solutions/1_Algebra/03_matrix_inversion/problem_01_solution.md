@@ -7,12 +7,12 @@ For the matrices
 $$
 A = \begin{pmatrix}
 2 & 1 \\
-1 & 1
+1 & 1 \\
 \end{pmatrix},
 \qquad
 B = \begin{pmatrix}
 1 & -1 \\
--1 & 2
+-1 & 2 \\
 \end{pmatrix}
 $$
 
@@ -30,34 +30,32 @@ $$
 AB =
 \begin{pmatrix}
 2 & 1 \\
-1 & 1
+1 & 1 \\
 \end{pmatrix}
 \begin{pmatrix}
 1 & -1 \\
--1 & 2
+-1 & 2 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 2-1 & -2+2 \\
-1-1 & -1+2
+1-1 & -1+2 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 1 & 0 \\
-0 & 1
+0 & 1 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{AB=I}
+AB=I
 $$
 
 ### 2. Compute BA
@@ -68,34 +66,32 @@ $$
 BA =
 \begin{pmatrix}
 1 & -1 \\
--1 & 2
+-1 & 2 \\
 \end{pmatrix}
 \begin{pmatrix}
 2 & 1 \\
-1 & 1
+1 & 1 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 2-1 & 1-1 \\
--2+2 & -1+2
+-2+2 & -1+2 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 1 & 0 \\
-0 & 1
+0 & 1 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{BA=I}
+BA=I
 $$
 
 ### 3. Conclusion
@@ -109,7 +105,7 @@ $$
 Since both products are equal to the identity matrix:
 
 $$
-\boxed{B=A^{-1}}
+B=A^{-1}
 $$
 
 Thus, B is the inverse of A.

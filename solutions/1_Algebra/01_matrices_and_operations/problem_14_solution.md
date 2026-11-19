@@ -3,14 +3,16 @@
 ### Question
 
 The matrix for a rotation through an angle $\theta$ is:
+
 $$
 R(\theta) = \begin{pmatrix}
 \cos\theta & -\sin\theta \\
-\sin\theta & \cos\theta
+\sin\theta & \cos\theta \\
 \end{pmatrix}
 $$
 
 Compute $R(\alpha)R(\beta)$ and, using the angle-sum formulas for sine and cosine, show that:
+
 $$
 R(\alpha)R(\beta) = R(\alpha + \beta)
 $$
@@ -25,14 +27,15 @@ Explain the result geometrically.
 
 #### 1. Computing the Product $R(\alpha)R(\beta)$
 Multiplying the two rotation matrices:
+
 $$
 R(\alpha)R(\beta) = \begin{pmatrix}
 \cos\alpha & -\sin\alpha \\
-\sin\alpha & \cos\alpha
+\sin\alpha & \cos\alpha \\
 \end{pmatrix}
 \begin{pmatrix}
 \cos\beta & -\sin\beta \\
-\sin\beta & \cos\beta
+\sin\beta & \cos\beta \\
 \end{pmatrix}
 $$
 
@@ -48,12 +51,14 @@ Using the standard angle-sum identities:
 * $\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$
 
 Substituting these into our matrix entries gives:
+
 $$
 R(\alpha)R(\beta) = \begin{pmatrix}
 \cos(\alpha + \beta) & -\sin(\alpha + \beta) \\
-\sin(\alpha + \beta) & \cos(\alpha + \beta)
+\sin(\alpha + \beta) & \cos(\alpha + \beta) \\
 \end{pmatrix}
 $$
+
 This expression is identically equal to $R(\alpha + \beta)$.
 
 #### 3. Geometric Explanation

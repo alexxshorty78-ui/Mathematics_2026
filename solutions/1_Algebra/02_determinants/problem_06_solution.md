@@ -7,17 +7,17 @@ Given the matrix:
 $$
 A(t) = \begin{pmatrix}
 t & 1 \\
-2 & t
+2 & t \\
 \end{pmatrix}
 $$
 
-Find all values of (t) for which the matrix is not invertible. Explain how your answer is related to the determinant being zero.
+Find all values of $t$ for which the matrix is not invertible. Explain how your answer is related to the determinant being zero.
 
 ## Solution
 
 ### 1. Determinant of the Matrix
 
-For a (2 \times 2) matrix, the determinant is calculated using the formula:
+For a $2 \times 2$ matrix, the determinant is calculated using the formula:
 
 $$
 \det(A) = ad - bc
@@ -28,7 +28,7 @@ For the given matrix:
 $$
 A(t) = \begin{pmatrix}
 t & 1 \\
-2 & t
+2 & t \\
 \end{pmatrix}
 $$
 
@@ -71,17 +71,17 @@ $$
 Thus:
 
 $$
-\boxed{t = \pm \sqrt{2}}
+t = \pm \sqrt{2}
 $$
 
 ### 3. Conclusion
 
 The matrix is not invertible when its determinant is zero.
 
-Therefore, the values of (t) for which the matrix is not invertible are:
+Therefore, the values of $t$ for which the matrix is not invertible are:
 
 $$
-\boxed{t = -\sqrt{2} \quad \text{or} \quad t = \sqrt{2}}
+t = \pm \sqrt{2}
 $$
 
-For all other real values of (t), the matrix is invertible because its determinant is nonzero.
+For all other real values of $t$, the matrix is invertible because its determinant is nonzero.

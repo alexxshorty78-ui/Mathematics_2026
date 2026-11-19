@@ -7,8 +7,8 @@ It is known that
 $$
 A^{-1}=
 \begin{pmatrix}
-2&-1\\
--3&2
+2&-1 \\
+-3&2 \\
 \end{pmatrix}
 $$
 
@@ -18,7 +18,7 @@ Without finding $A$, compute $(3A)^{-1}$, $(A^T)^{-1}$, and $(A^2)^{-1}$. Justif
 
 ### 1. Calculate (3A)⁻¹
 
-Using the scalar inverse property:
+For a nonzero scalar $k$, the scalar inverse property gives
 
 $$
 (kA)^{-1}=\frac{1}{k}A^{-1}
@@ -34,22 +34,19 @@ Substitute the given inverse:
 
 $$
 (3A)^{-1}
-=
-\frac{1}{3}
+= \frac{1}{3}
 \begin{pmatrix}
-2&-1\\
--3&2
+2&-1 \\
+-3&2 \\
 \end{pmatrix}
 $$
 
 $$
-\boxed{
 (3A)^{-1}=
 \begin{pmatrix}
-\frac23&-\frac13\\
--1&\frac23
+\frac23&-\frac13 \\
+-1&\frac23 \\
 \end{pmatrix}
-}
 $$
 
 ### 2. Calculate (Aᵀ)⁻¹
@@ -64,22 +61,18 @@ We transpose the given inverse matrix:
 
 $$
 (A^T)^{-1}
-=
-\begin{pmatrix}
-2&-1\\
--3&2
+= \begin{pmatrix}
+2&-1 \\
+-3&2 \\
 \end{pmatrix}^{T}
 $$
 
 $$
-\boxed{
 (A^T)^{-1}
-=
-\begin{pmatrix}
-2&-3\\
--1&2
+= \begin{pmatrix}
+2&-3 \\
+-1&2 \\
 \end{pmatrix}
-}
 $$
 
 ### 3. Calculate (A²)⁻¹
@@ -94,34 +87,29 @@ Therefore:
 
 $$
 (A^2)^{-1}
-=
-\begin{pmatrix}
-2&-1\\
--3&2
+= \begin{pmatrix}
+2&-1 \\
+-3&2 \\
 \end{pmatrix}
 \begin{pmatrix}
-2&-1\\
--3&2
-\end{pmatrix}
-$$
-
-$$
-=
-\begin{pmatrix}
-4+3&-2-2\\
--6-6&3+4
+2&-1 \\
+-3&2 \\
 \end{pmatrix}
 $$
 
 $$
-\boxed{
+= \begin{pmatrix}
+4+3&-2-2 \\
+-6-6&3+4 \\
+\end{pmatrix}
+$$
+
+$$
 (A^2)^{-1}
-=
-\begin{pmatrix}
-7&-4\\
--12&7
+= \begin{pmatrix}
+7&-4 \\
+-12&7 \\
 \end{pmatrix}
-}
 $$
 
 ### 4. Verify the Results

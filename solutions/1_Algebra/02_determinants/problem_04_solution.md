@@ -8,7 +8,7 @@ $$
 A = \begin{pmatrix}
 2 & 4 & 1 \\
 0 & -3 & 5 \\
-0 & 0 & 7
+0 & 0 & 7 \\
 \end{pmatrix}
 $$
 
@@ -33,7 +33,7 @@ $$
 $$
 
 $$
-\boxed{\det(A) = -42}
+\det(A) = -42
 $$
 
 ### 2. General Rule for Triangular Matrices
@@ -46,7 +46,7 @@ $$
 A = \begin{pmatrix}
 a_{11} & * & * \\
 0 & a_{22} & * \\
-0 & 0 & a_{33}
+0 & 0 & a_{33} \\
 \end{pmatrix}
 $$
 
@@ -55,16 +55,15 @@ For a lower triangular matrix:
 $$
 A = \begin{pmatrix}
 a_{11} & 0 & 0 \\
-
 * & a_{22} & 0 \\
-* & * & a_{33}
-    \end{pmatrix}
-    $$
+* & * & a_{33} \\
+\end{pmatrix}
+$$
 
 In both cases, the determinant is:
 
 $$
-\det(A) = a_{11} \cdot a_{22} \cdot a_{33}
+\det(A) = \prod_{i=1}^{n} a_{ii}
 $$
 
 In this example, the diagonal entries are 2, -3 and 7. Their product gives -42.

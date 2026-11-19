@@ -7,12 +7,12 @@ Calculate the determinants of the following matrices and determine which matrix 
 $$
 A = \begin{pmatrix}
 3 & -2 \\
-5 & 4
+5 & 4 \\
 \end{pmatrix}
 \qquad
 B = \begin{pmatrix}
 1 & 7 \\
-2 & 14
+2 & 14 \\
 \end{pmatrix}
 $$
 

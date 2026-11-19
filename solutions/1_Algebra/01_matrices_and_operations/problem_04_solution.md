@@ -3,14 +3,15 @@
 ### Question
 
 For the matrices:
+
 $$
 A = \begin{pmatrix}
 1 & 2 \\
-0 & 1
+0 & 1 \\
 \end{pmatrix}, \quad
 B = \begin{pmatrix}
 2 & 0 \\
-3 & 1
+3 & 1 \\
 \end{pmatrix}
 $$
 
@@ -30,10 +31,11 @@ We multiply the rows of $A$ by the columns of $B$:
 * Bottom-right: $(0)(0) + (1)(1) = 0 + 1 = 1$
 
 Putting it together:
+
 $$
 AB = \begin{pmatrix}
 8 & 2 \\
-3 & 1
+3 & 1 \\
 \end{pmatrix}
 $$
 
@@ -45,16 +47,25 @@ Now we multiply the rows of $B$ by the columns of $A$:
 * Bottom-right: $(3)(2) + (1)(1) = 6 + 1 = 7$
 
 Putting it together:
+
 $$
 BA = \begin{pmatrix}
 2 & 4 \\
-3 & 7
+3 & 7 \\
 \end{pmatrix}
 $$
 
 #### 3. Why $AB \neq BA$ (Noncommutativity)
 Looking at our results:
+
 $$
-AB = \begin{pmatrix} 8 & 2 \\ 3 & 1 \end{pmatrix} \neq \begin{pmatrix} 2 & 4 \\ 3 & 7 \end{pmatrix} = BA
+AB = \begin{pmatrix}
+8 & 2 \\
+3 & 1 \\
+\end{pmatrix} \neq \begin{pmatrix}
+2 & 4 \\
+3 & 7 \\
+\end{pmatrix} = BA
 $$
+
 Since $AB \neq BA$, matrix multiplication is **noncommutative**. In regular arithmetic, order doesn't change the product (like $2 \times 3 = 3 \times 2$), but with matrices, switching the order generally gives a completely different result.

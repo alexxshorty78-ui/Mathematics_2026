@@ -6,8 +6,8 @@ Find $A^{-1}$ using the Gauss–Jordan method for:
 
 $$
 A=\begin{pmatrix}
-1&2\\
-3&5
+1&2 \\
+3&5 \\
 \end{pmatrix}
 $$
 
@@ -21,12 +21,10 @@ Start with:
 
 $$
 [A|I]=
-\left[
-\begin{array}{cc|cc}
-1&2&1&0\\
-3&5&0&1
-\end{array}
-\right]
+\begin{pmatrix}
+1 & 2 & \mid & 1 & 0 \\
+3 & 5 & \mid & 0 & 1 \\
+\end{pmatrix}
 $$
 
 ### 2. Apply Row Operations
@@ -38,12 +36,10 @@ R_2\rightarrow R_2-3R_1
 $$
 
 $$
-\left[
-\begin{array}{cc|cc}
-1&2&1&0\\
-0&-1&-3&1
-\end{array}
-\right]
+\begin{pmatrix}
+1 & 2 & \mid & 1 & 0 \\
+0 & -1 & \mid & -3 & 1 \\
+\end{pmatrix}
 $$
 
 Multiply Row 2 by -1:
@@ -53,12 +49,10 @@ R_2\rightarrow -R_2
 $$
 
 $$
-\left[
-\begin{array}{cc|cc}
-1&2&1&0\\
-0&1&3&-1
-\end{array}
-\right]
+\begin{pmatrix}
+1 & 2 & \mid & 1 & 0 \\
+0 & 1 & \mid & 3 & -1 \\
+\end{pmatrix}
 $$
 
 Subtract 2 times Row 2 from Row 1:
@@ -68,12 +62,10 @@ R_1\rightarrow R_1-2R_2
 $$
 
 $$
-\left[
-\begin{array}{cc|cc}
-1&0&-5&2\\
-0&1&3&-1
-\end{array}
-\right]
+\begin{pmatrix}
+1 & 0 & \mid & -5 & 2 \\
+0 & 1 & \mid & 3 & -1 \\
+\end{pmatrix}
 $$
 
 ### 3. Find the Inverse
@@ -83,35 +75,35 @@ The left side is now the identity matrix.
 Therefore:
 
 $$
-\boxed{
 A^{-1}=
 \begin{pmatrix}
--5&2\\
-3&-1
+-5&2 \\
+3&-1 \\
 \end{pmatrix}
-}
 $$
 
 ### 4. Explanation
 
-The same row operations are applied to both sides of the augmented matrix.
+Let $E$ be the product of the elementary matrices for the row operations, taken in the order in which they act. Applying these operations to both blocks gives
 
-When the left side becomes the identity matrix, the right side becomes the inverse of A.
+$$
+E[A\mid I]=[EA\mid EI]=[EA\mid E].
+$$
+
+The left block is $I$, so $EA=I$. Each elementary matrix is invertible, so $E$ is invertible and $A=E^{-1}$. Thus the right block $E$ equals $A^{-1}$.
 
 ### 5. Conclusion
 
 $$
-\boxed{AA^{-1}=I}
+AA^{-1}=I
 $$
 
 Therefore, the inverse matrix is:
 
 $$
-\boxed{
 A^{-1}=
 \begin{pmatrix}
--5&2\\
-3&-1
+-5&2 \\
+3&-1 \\
 \end{pmatrix}
-}
 $$

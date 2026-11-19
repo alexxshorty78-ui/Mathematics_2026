@@ -38,7 +38,7 @@ $$
 $$
 
 $$
-\boxed{\det(2A)=-32}
+\det(2A)=-32
 $$
 
 ### 2. Determinant of the Transpose
@@ -52,7 +52,7 @@ $$
 Therefore:
 
 $$
-\boxed{\det(A^T)=-4}
+\det(A^T)=-4
 $$
 
 ### 3. Determinant of $A^2$
@@ -74,7 +74,7 @@ $$
 $$
 
 $$
-\boxed{\det(A^2)=16}
+\det(A^2)=16
 $$
 
 ### 4. Determinant of $-A$
@@ -96,7 +96,7 @@ $$
 $$
 
 $$
-\boxed{\det(-A)=4}
+\det(-A)=4
 $$
 
 ## Conclusion

@@ -24,23 +24,27 @@ To compute $\det \left( B^{-1} A^T B \right)$ without explicitly knowing the ent
 
 #### 1. Multiplicative Property of Determinants
 The determinant of a product of square matrices is equal to the product of their individual determinants:
+
 $$
 \det(XY) = \det(X) \det(Y)
 $$
 
 Applying this to our expression with three matrix factors ($B^{-1}$, $A^T$, and $B$):
+
 $$
 \det \left( B^{-1} A^T B \right) = \det(B^{-1}) \cdot \det(A^T) \cdot \det(B)
 $$
 
 #### 2. Determinant of an Inverse Matrix
 For any invertible matrix $B$, the determinant of its inverse is the reciprocal of its determinant:
+
 $$
 \det(B^{-1}) = \frac{1}{\det(B)}
 $$
 
 #### 3. Determinant of a Transpose Matrix
 The determinant of a matrix's transpose is equal to the determinant of the original matrix:
+
 $$
 \det(A^T) = \det(A)
 $$
@@ -74,7 +78,7 @@ $$
 Therefore:
 
 $$
-\boxed{\det \left( B^{-1} A^T B \right) = -2}
+\det \left( B^{-1} A^T B \right) = -2
 $$
 
 ---

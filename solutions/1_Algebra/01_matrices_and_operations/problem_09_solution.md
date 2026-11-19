@@ -3,22 +3,24 @@
 ### Question
 
 Let:
+
 $$
 S = \begin{pmatrix}
 2 & 0 \\
-0 & 1
+0 & 1 \\
 \end{pmatrix}, \quad
 R = \begin{pmatrix}
 0 & -1 \\
-1 & 0
+1 & 0 \\
 \end{pmatrix}
 $$
 
 The matrix $S$ describes nonuniform scaling, while $R$ describes a $90^\circ$ counterclockwise rotation. For:
+
 $$
 x = \begin{pmatrix}
 1 \\
-2
+2 \\
 \end{pmatrix}
 $$
 
@@ -32,28 +34,89 @@ Compute $RSx$ and $SRx$. Compare the results and explain geometrically why the o
 
 #### 1. Computing $RSx$
 First, apply the scaling matrix $S$ to vector $x$:
+
 $$
-Sx = \begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} 1 \\ 2 \end{pmatrix} = \begin{pmatrix} (2)(1) + (0)(2) \\ (0)(1) + (1)(2) \end{pmatrix} = \begin{pmatrix} 2 \\ 2 \end{pmatrix}
+Sx = \begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix} \begin{pmatrix}
+1 \\
+2 \\
+\end{pmatrix} = \begin{pmatrix}
+(2)(1) + (0)(2) \\
+(0)(1) + (1)(2) \\
+\end{pmatrix} = \begin{pmatrix}
+2 \\
+2 \\
+\end{pmatrix}
 $$
+
 Next, apply the rotation matrix $R$ to the resulting vector:
+
 $$
-RSx = R(Sx) = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 2 \\ 2 \end{pmatrix} = \begin{pmatrix} (0)(2) + (-1)(2) \\ (1)(2) + (0)(2) \end{pmatrix} = \begin{pmatrix} -2 \\ 2 \end{pmatrix}
+RSx = R(Sx) = \begin{pmatrix}
+0 & -1 \\
+1 & 0 \\
+\end{pmatrix} \begin{pmatrix}
+2 \\
+2 \\
+\end{pmatrix} = \begin{pmatrix}
+(0)(2) + (-1)(2) \\
+(1)(2) + (0)(2) \\
+\end{pmatrix} = \begin{pmatrix}
+-2 \\
+2 \\
+\end{pmatrix}
 $$
 
 #### 2. Computing $SRx$
 First, apply the rotation matrix $R$ to vector $x$:
+
 $$
-Rx = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix} \begin{pmatrix} 1 \\ 2 \end{pmatrix} = \begin{pmatrix} (0)(1) + (-1)(2) \\ (1)(1) + (0)(2) \end{pmatrix} = \begin{pmatrix} -2 \\ 1 \end{pmatrix}
+Rx = \begin{pmatrix}
+0 & -1 \\
+1 & 0 \\
+\end{pmatrix} \begin{pmatrix}
+1 \\
+2 \\
+\end{pmatrix} = \begin{pmatrix}
+(0)(1) + (-1)(2) \\
+(1)(1) + (0)(2) \\
+\end{pmatrix} = \begin{pmatrix}
+-2 \\
+1 \\
+\end{pmatrix}
 $$
+
 Next, apply the scaling matrix $S$ to the resulting vector:
+
 $$
-SRx = S(Rx) = \begin{pmatrix} 2 & 0 \\ 0 & 1 \end{pmatrix} \begin{pmatrix} -2 \\ 1 \end{pmatrix} = \begin{pmatrix} (2)(-2) + (0)(1) \\ (0)(-2) + (1)(1) \end{pmatrix} = \begin{pmatrix} -4 \\ 1 \end{pmatrix}
+SRx = S(Rx) = \begin{pmatrix}
+2 & 0 \\
+0 & 1 \\
+\end{pmatrix} \begin{pmatrix}
+-2 \\
+1 \\
+\end{pmatrix} = \begin{pmatrix}
+(2)(-2) + (0)(1) \\
+(0)(-2) + (1)(1) \\
+\end{pmatrix} = \begin{pmatrix}
+-4 \\
+1 \\
+\end{pmatrix}
 $$
 
 #### 3. Comparison and Geometric Explanation
 Comparing our findings:
+
 $$
-RSx = \begin{pmatrix} -2 \\ 2 \end{pmatrix} \neq \begin{pmatrix} -4 \\ 1 \end{pmatrix} = SRx
+RSx = \begin{pmatrix}
+-2 \\
+2 \\
+\end{pmatrix} \neq \begin{pmatrix}
+-4 \\
+1 \\
+\end{pmatrix} = SRx
 $$
 
 * **Geometric Meaning:** 

@@ -9,7 +9,7 @@ A=
 \begin{pmatrix}
 1 & 2 & 3 \\
 2 & 5 & 7 \\
-1 & 0 & 2
+1 & 0 & 2 \\
 \end{pmatrix}
 $$
 
@@ -31,7 +31,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 3 \\
 0 & 1 & 1 \\
-1 & 0 & 2
+1 & 0 & 2 \\
 \end{pmatrix}
 $$
 
@@ -49,7 +49,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 3 \\
 0 & 1 & 1 \\
-0 & -2 & -1
+0 & -2 & -1 \\
 \end{pmatrix}
 $$
 
@@ -67,7 +67,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 3 \\
 0 & 1 & 1 \\
-0 & 0 & 1
+0 & 0 & 1 \\
 \end{pmatrix}
 $$
 
@@ -80,7 +80,7 @@ $$
 Therefore:
 
 $$
-\boxed{\det(A)=1}
+\det(A)=1
 $$
 
 Since all three row operations involved adding a multiple of one row to another, none of them changed the determinant.
@@ -92,7 +92,7 @@ Thus, the determinant of the original matrix is also 1.
 The determinant is:
 
 $$
-\boxed{\det(A)=1}
+\det(A)=1
 $$
 
 All three row operations preserve the determinant because adding a multiple of one row to another does not change its value.

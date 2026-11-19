@@ -2,14 +2,14 @@
 
 ## Question
 
-Without carrying out a full determinant calculation, explain why
+Without carrying out a full determinant calculation, explain why the determinant of the following matrix is zero.
 
 $$
-\det\begin{pmatrix}
+A = \begin{pmatrix}
 1 & 2 & 3 \\
 2 & 4 & 6 \\
-0 & 1 & 5
-\end{pmatrix} = 0.
+0 & 1 & 5 \\
+\end{pmatrix}
 $$
 
 Identify a specific dependence between the rows and connect it with noninvertibility of the matrix.

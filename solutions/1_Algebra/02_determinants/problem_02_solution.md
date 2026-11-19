@@ -8,7 +8,7 @@ $$
 A = \begin{pmatrix}
 1 & 2 & -1 \\
 0 & 3 & 4 \\
-2 & 1 & 5
+2 & 1 & 5 \\
 \end{pmatrix}
 $$
 
@@ -47,7 +47,7 @@ $$
 $$
 
 $$
-\boxed{\det(A) = 33}
+\det(A) = 33
 $$
 
 ### 2. Check using a determinant property
@@ -66,7 +66,7 @@ $$
 \begin{pmatrix}
 1 & 2 & -1 \\
 0 & 3 & 4 \\
-0 & -3 & 7
+0 & -3 & 7 \\
 \end{pmatrix}
 $$
 

@@ -13,8 +13,8 @@ where
 $$
 A=
 \begin{pmatrix}
-1 & 2\\
-k & 4
+1 & 2 \\
+k & 4 \\
 \end{pmatrix}
 $$
 
@@ -38,10 +38,10 @@ Calculate the determinant:
 
 $$
 \det(A)=
-\begin{vmatrix}
-1 & 2\\
-k & 4
-\end{vmatrix}
+\det\begin{pmatrix}
+1 & 2 \\
+k & 4 \\
+\end{pmatrix}
 $$
 
 $$
@@ -69,7 +69,7 @@ $$
 Therefore:
 
 $$
-\boxed{k\neq2}
+k\neq2
 $$
 
 Thus, the system has exactly one solution for every $b$ when $k\neq2$.
@@ -81,8 +81,8 @@ When $k=2$, the coefficient matrix becomes:
 $$
 A=
 \begin{pmatrix}
-1 & 2\\
-2 & 4
+1 & 2 \\
+2 & 4 \\
 \end{pmatrix}
 $$
 
@@ -90,8 +90,8 @@ The system is:
 
 $$
 \begin{cases}
-x_1+2x_2=b_1\\
-2x_1+4x_2=b_2
+x_1+2x_2=b_1 \\
+2x_1+4x_2=b_2 \\
 \end{cases}
 $$
 
@@ -106,8 +106,8 @@ Choose:
 $$
 b=
 \begin{pmatrix}
-1\\
-2
+1 \\
+2 \\
 \end{pmatrix}
 $$
 
@@ -115,8 +115,8 @@ The system becomes:
 
 $$
 \begin{cases}
-x_1+2x_2=1\\
-2x_1+4x_2=2
+x_1+2x_2=1 \\
+2x_1+4x_2=2 \\
 \end{cases}
 $$
 
@@ -131,8 +131,8 @@ Choose:
 $$
 b=
 \begin{pmatrix}
-1\\
-0
+1 \\
+0 \\
 \end{pmatrix}
 $$
 
@@ -140,8 +140,8 @@ The system becomes:
 
 $$
 \begin{cases}
-x_1+2x_2=1\\
-2x_1+4x_2=0
+x_1+2x_2=1 \\
+2x_1+4x_2=0 \\
 \end{cases}
 $$
 

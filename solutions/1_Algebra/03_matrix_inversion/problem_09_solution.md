@@ -7,14 +7,14 @@ Given:
 $$
 A=
 \begin{pmatrix}
-1&2\\
-0&1
+1&2 \\
+0&1 \\
 \end{pmatrix},
 \qquad
 B=
 \begin{pmatrix}
-3&1\\
-2&4
+3&1 \\
+2&4 \\
 \end{pmatrix}
 $$
 
@@ -60,10 +60,9 @@ Since the determinant is not zero, $A$ is invertible.
 
 $$
 A^{-1}
-=
-\begin{pmatrix}
-1&-2\\
-0&1
+= \begin{pmatrix}
+1&-2 \\
+0&1 \\
 \end{pmatrix}
 $$
 
@@ -74,31 +73,29 @@ Using $X=A^{-1}B$:
 $$
 X=
 \begin{pmatrix}
-1&-2\\
-0&1
+1&-2 \\
+0&1 \\
 \end{pmatrix}
 \begin{pmatrix}
-3&1\\
-2&4
+3&1 \\
+2&4 \\
 \end{pmatrix}
 $$
 
 $$
 X=
 \begin{pmatrix}
-3-4&1-8\\
-2&4
+3-4&1-8 \\
+2&4 \\
 \end{pmatrix}
 $$
 
 $$
-\boxed{
 X=
 \begin{pmatrix}
--1&-7\\
-2&4
+-1&-7 \\
+2&4 \\
 \end{pmatrix}
-}
 $$
 
 ### 4. Verify the Result by Calculating AX
@@ -108,28 +105,28 @@ Substitute the calculated matrix $X$ into the original equation:
 $$
 AX=
 \begin{pmatrix}
-1&2\\
-0&1
+1&2 \\
+0&1 \\
 \end{pmatrix}
 \begin{pmatrix}
--1&-7\\
-2&4
-\end{pmatrix}
-$$
-
-$$
-AX=
-\begin{pmatrix}
--1+4&-7+8\\
-2&4
+-1&-7 \\
+2&4 \\
 \end{pmatrix}
 $$
 
 $$
 AX=
 \begin{pmatrix}
-3&1\\
-2&4
+-1+4&-7+8 \\
+2&4 \\
+\end{pmatrix}
+$$
+
+$$
+AX=
+\begin{pmatrix}
+3&1 \\
+2&4 \\
 \end{pmatrix}
 =B
 $$
@@ -141,13 +138,11 @@ The result is equal to the given matrix $B$.
 The solution is:
 
 $$
-\boxed{
 X=
 \begin{pmatrix}
--1&-7\\
-2&4
+-1&-7 \\
+2&4 \\
 \end{pmatrix}
-}
 $$
 
 The inverse must be multiplied from the left because $A$ is on the left side of $X$. The verification confirms that $AX=B$.

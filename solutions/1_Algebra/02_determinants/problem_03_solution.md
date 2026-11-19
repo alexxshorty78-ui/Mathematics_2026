@@ -8,7 +8,7 @@ $$
 A = \begin{pmatrix}
 1 & 2 & 0 \\
 0 & 3 & 1 \\
-2 & 1 & 1
+2 & 1 & 1 \\
 \end{pmatrix}
 $$
 
@@ -23,7 +23,7 @@ First predict $\det(B)$ using a determinant property, and then verify your predi
 Using Sarrus’ rule:
 
 $$
-\det(A) = 1 \cdot 3 \cdot 1 + 2 \cdot 1 \cdot 2 + 0 \cdot 0 \cdot 1
+1 \cdot 3 \cdot 1 + 2 \cdot 1 \cdot 2 + 0 \cdot 0 \cdot 1
 $$
 
 $$
@@ -54,7 +54,7 @@ $$
 B = \begin{pmatrix}
 0 & 3 & 1 \\
 1 & 2 & 0 \\
-2 & 1 & 1
+2 & 1 & 1 \\
 \end{pmatrix}
 $$
 
@@ -77,7 +77,7 @@ $$
 Using Sarrus’ rule for matrix B:
 
 $$
-\det(B) = 0 \cdot 2 \cdot 1 + 3 \cdot 0 \cdot 2 + 1 \cdot 1 \cdot 1
+0 \cdot 2 \cdot 1 + 3 \cdot 0 \cdot 2 + 1 \cdot 1 \cdot 1
 $$
 
 $$

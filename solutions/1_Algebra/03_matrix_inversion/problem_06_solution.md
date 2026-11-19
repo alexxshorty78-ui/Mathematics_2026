@@ -13,14 +13,14 @@ where:
 $$
 A=
 \begin{pmatrix}
-2&1\\
-1&3
+2&1 \\
+1&3 \\
 \end{pmatrix},
 \qquad
 b=
 \begin{pmatrix}
-5\\
-7
+5 \\
+7 \\
 \end{pmatrix}
 $$
 
@@ -49,7 +49,7 @@ $$
 Therefore:
 
 $$
-\boxed{\det(A)=5}
+\det(A)=5
 $$
 
 Since the determinant is not zero, the inverse exists.
@@ -62,8 +62,8 @@ $$
 A^{-1}=
 \frac{1}{ad-bc}
 \begin{pmatrix}
-d&-b\\
--c&a
+d&-b \\
+-c&a \\
 \end{pmatrix}
 $$
 
@@ -73,21 +73,19 @@ $$
 A^{-1}=
 \frac15
 \begin{pmatrix}
-3&-1\\
--1&2
+3&-1 \\
+-1&2 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{
 A^{-1}=
 \begin{pmatrix}
-\frac35&-\frac15\\
--\frac15&\frac25
+\frac35&-\frac15 \\
+-\frac15&\frac25 \\
 \end{pmatrix}
-}
 $$
 
 ### 3. Calculate x
@@ -104,43 +102,39 @@ $$
 x=
 \frac15
 \begin{pmatrix}
-3&-1\\
--1&2
+3&-1 \\
+-1&2 \\
 \end{pmatrix}
 \begin{pmatrix}
-5\\
-7
-\end{pmatrix}
-$$
-
-$$
-=
-\frac15
-\begin{pmatrix}
-15-7\\
--5+14
+5 \\
+7 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\frac15
+= \frac15
 \begin{pmatrix}
-8\\
-9
+15-7 \\
+-5+14 \\
+\end{pmatrix}
+$$
+
+$$
+= \frac15
+\begin{pmatrix}
+8 \\
+9 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{
 x=
 \begin{pmatrix}
-\frac85\\
-\frac95
+\frac85 \\
+\frac95 \\
 \end{pmatrix}
-}
 $$
 
 ### 4. Verify the Result
@@ -153,43 +147,40 @@ $$
 
 $$
 \begin{pmatrix}
-2&1\\
-1&3
+2&1 \\
+1&3 \\
 \end{pmatrix}
 \begin{pmatrix}
-\frac85\\
-\frac95
-\end{pmatrix}
-$$
-
-$$
-=
-\begin{pmatrix}
-\frac{16}{5}+\frac95\\
-\frac85+\frac{27}{5}
+\frac85 \\
+\frac95 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
-\frac{25}{5}\\
-\frac{35}{5}
+= \begin{pmatrix}
+\frac{16}{5}+\frac95 \\
+\frac85+\frac{27}{5} \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
-5\\
-7
+= \begin{pmatrix}
+\frac{25}{5} \\
+\frac{35}{5} \\
+\end{pmatrix}
+$$
+
+$$
+= \begin{pmatrix}
+5 \\
+7 \\
 \end{pmatrix}
 $$
 
 Thus:
 
 $$
-\boxed{Ax=b}
+Ax=b
 $$
 
 ### 5. Conclusion
@@ -197,13 +188,11 @@ $$
 The solution is:
 
 $$
-\boxed{
 x=
 \begin{pmatrix}
-\frac85\\
-\frac95
+\frac85 \\
+\frac95 \\
 \end{pmatrix}
-}
 $$
 
 Substituting the result into the original equation gives the correct vector b.

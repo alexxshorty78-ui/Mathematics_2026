@@ -6,8 +6,8 @@ For the matrix:
 
 $$
 A=\begin{pmatrix}
-2&4\\
-1&2
+2&4 \\
+1&2 \\
 \end{pmatrix}
 $$
 
@@ -36,7 +36,7 @@ $$
 Therefore:
 
 $$
-\boxed{\det(A)=0}
+\det(A)=0
 $$
 
 Since the determinant is zero, the inverse does not exist.
@@ -57,6 +57,4 @@ A matrix with dependent rows is not invertible.
 
 Both methods show that the inverse does not exist.
 
-$$
-\boxed{A^{-1}\text{ does not exist}}
-$$
+The inverse of $A$ does not exist.

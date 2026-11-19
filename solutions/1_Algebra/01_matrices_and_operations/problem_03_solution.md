@@ -3,10 +3,16 @@
 ### Question
 
 The matrix sizes are given as:
-$$A_{2 \times 3}, \quad B_{3 \times 4}, \quad C_{4 \times 2}, \quad D_{2 \times 2}$$
+
+$$
+A_{2 \times 3}, \quad B_{3 \times 4}, \quad C_{4 \times 2}, \quad D_{2 \times 2}
+$$
 
 For the products:
-$$AB, \quad BA, \quad BC, \quad CB, \quad AC, \quad CA, \quad AD, \quad DA$$
+
+$$
+AB, \quad BA, \quad BC, \quad CB, \quad AC, \quad CA, \quad AD, \quad DA
+$$
 
 Determine whether they are defined. If so, state the size of the result. Justify each decision using the dimension compatibility condition.
 

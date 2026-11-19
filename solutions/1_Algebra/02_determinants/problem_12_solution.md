@@ -9,7 +9,7 @@ A(t)=
 \begin{pmatrix}
 1 & 2 & 3 \\
 2 & 4 & t \\
-0 & 1 & 1
+0 & 1 & 1 \\
 \end{pmatrix}
 $$
 
@@ -37,7 +37,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 3 \\
 0 & 0 & t-6 \\
-0 & 1 & 1
+0 & 1 & 1 \\
 \end{pmatrix}
 $$
 
@@ -48,10 +48,10 @@ Now, expand the determinant along the second row:
 $$
 \det(A(t)) =
 -(t-6)
-\begin{vmatrix}
+\det\begin{pmatrix}
 1 & 2 \\
-0 & 1
-\end{vmatrix}
+0 & 1 \\
+\end{pmatrix}
 $$
 
 We get:
@@ -75,7 +75,7 @@ $$
 Solving for $t$ gives:
 
 $$
-\boxed{t=6}
+t=6
 $$
 
 When $t=6$, the resulting matrix becomes:
@@ -84,7 +84,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 3 \\
 0 & 0 & 0 \\
-0 & 1 & 1
+0 & 1 & 1 \\
 \end{pmatrix}
 $$
 
@@ -103,7 +103,7 @@ Therefore, the rows are linearly dependent, which means that the determinant is 
 The matrix is not invertible when:
 
 $$
-\boxed{t=6}
+t=6
 $$
 
 For this value of $t$, the second row is twice the first row. As a result, the rows are linearly dependent and the determinant is zero.

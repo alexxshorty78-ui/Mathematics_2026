@@ -7,14 +7,14 @@ For
 $$
 A=
 \begin{pmatrix}
-2&1\\
-1&3
+2&1 \\
+1&3 \\
 \end{pmatrix},
 \qquad
 b=
 \begin{pmatrix}
-7\\
-8
+7 \\
+8 \\
 \end{pmatrix}
 $$
 
@@ -53,11 +53,10 @@ Calculate the inverse:
 
 $$
 A^{-1}
-=
-\frac{1}{5}
+= \frac{1}{5}
 \begin{pmatrix}
-3&-1\\
--1&2
+3&-1 \\
+-1&2 \\
 \end{pmatrix}
 $$
 
@@ -67,12 +66,12 @@ $$
 x=
 \frac{1}{5}
 \begin{pmatrix}
-3&-1\\
--1&2
+3&-1 \\
+-1&2 \\
 \end{pmatrix}
 \begin{pmatrix}
-7\\
-8
+7 \\
+8 \\
 \end{pmatrix}
 $$
 
@@ -80,102 +79,49 @@ $$
 x=
 \frac{1}{5}
 \begin{pmatrix}
-21-8\\
--7+16
+21-8 \\
+-7+16 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{
 x=
 \begin{pmatrix}
-\frac{13}{5}\\
-\frac{9}{5}
+\frac{13}{5} \\
+\frac{9}{5} \\
 \end{pmatrix}
-}
 $$
 
 ### 2. Method 2: Using Gaussian Elimination
 
-Start with the augmented matrix:
+Start with the augmented matrix.
 
 $$
-\left[
-\begin{array}{cc|c}
-2&1&7\\
-1&3&8
-\end{array}
-\right]
+\begin{pmatrix}
+2 & 1 & \mid & 7 \\
+1 & 3 & \mid & 8 \\
+\end{pmatrix}
 $$
 
-First, swap the two rows:
+Apply $R_2\leftarrow R_2-\frac12R_1$ to eliminate the first entry in the second row.
 
 $$
-\left[
-\begin{array}{cc|c}
-1&3&8\\
-2&1&7
-\end{array}
-\right]
+\begin{pmatrix}
+2 & 1 & \mid & 7 \\
+0 & \frac52 & \mid & \frac92 \\
+\end{pmatrix}
 $$
 
-Subtract twice the first row from the second row:
+The second equation gives $x_2=(\frac92)/(\frac52)=\frac95$. Substituting into the first equation gives $x_1=(7-\frac95)/2=\frac{13}{5}$. Thus
 
 $$
-R_2\rightarrow R_2-2R_1
-$$
-
-$$
-\left[
-\begin{array}{cc|c}
-1&3&8\\
-0&-5&-9
-\end{array}
-\right]
-$$
-
-Divide the second row by $-5$:
-
-$$
-R_2\rightarrow-\frac15R_2
-$$
-
-$$
-\left[
-\begin{array}{cc|c}
-1&3&8\\
-0&1&\frac95
-\end{array}
-\right]
-$$
-
-Subtract three times the second row from the first row:
-
-$$
-R_1\rightarrow R_1-3R_2
-$$
-
-$$
-\left[
-\begin{array}{cc|c}
-1&0&\frac{13}{5}\\
-0&1&\frac95
-\end{array}
-\right]
-$$
-
-Therefore:
-
-$$
-\boxed{
 x=
 \begin{pmatrix}
-\frac{13}{5}\\
-\frac95
-\end{pmatrix}
-}
+\frac{13}{5} \\
+\frac95 \\
+\end{pmatrix}.
 $$
 
 ### 3. Verify the Solution
@@ -185,8 +131,8 @@ Both methods give the same solution:
 $$
 x=
 \begin{pmatrix}
-\frac{13}{5}\\
-\frac95
+\frac{13}{5} \\
+\frac95 \\
 \end{pmatrix}
 $$
 
@@ -195,25 +141,23 @@ Substitute it into the original equation:
 $$
 Ax=
 \begin{pmatrix}
-2&1\\
-1&3
+2&1 \\
+1&3 \\
 \end{pmatrix}
 \begin{pmatrix}
-\frac{13}{5}\\
-\frac95
+\frac{13}{5} \\
+\frac95 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
-\frac{26}{5}+\frac95\\
-\frac{13}{5}+\frac{27}{5}
+= \begin{pmatrix}
+\frac{26}{5}+\frac95 \\
+\frac{13}{5}+\frac{27}{5} \\
 \end{pmatrix}
-=
-\begin{pmatrix}
-7\\
-8
+= \begin{pmatrix}
+7 \\
+8 \\
 \end{pmatrix}
 =b
 $$
@@ -222,37 +166,9 @@ The solution is correct.
 
 ### 4. Compare the Methods
 
-Both methods give the same answer, but their essential steps are different.
+Both methods give $x_1=\frac{13}{5}$ and $x_2=\frac95$.
 
-**Inverse matrix method:**
-1. Calculate the determinant.
-2. Find the inverse matrix.
-3. Multiply the inverse by the vector $b$.
+- The inverse method has three main steps. Compute the determinant, form $A^{-1}$, and multiply $A^{-1}b$.
+- Gaussian elimination also has three main steps. Eliminate the entry below the first pivot, solve the second equation for $x_2$, and substitute into the first equation to find $x_1$.
 
-This method requires three main calculation steps.
-
-**Gaussian elimination method:**
-1. Swap the rows.
-2. Eliminate the first entry in the second row.
-3. Make the second pivot equal to one.
-4. Eliminate the second entry in the first row.
-
-This method requires four main row operations.
-
-For this example, the inverse matrix method is slightly simpler because it requires fewer essential calculation steps.
-
-**Conclusion**
-
-Both methods give the same solution:
-
-$$
-\boxed{
-x=
-\begin{pmatrix}
-\frac{13}{5}\\
-\frac95
-\end{pmatrix}
-}
-$$
-
-The inverse matrix method is simpler in this particular example because it requires fewer essential steps. Gaussian elimination is also correct, but it requires more row operations here.
+Gaussian elimination is simpler for this right-hand side because one row operation and back substitution give the solution directly.

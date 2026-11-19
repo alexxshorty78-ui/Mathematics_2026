@@ -8,7 +8,7 @@ $$
 A =
 \begin{pmatrix}
 3 & 2 \\
-5 & 4
+5 & 4 \\
 \end{pmatrix}
 $$
 
@@ -26,7 +26,7 @@ $$
 A =
 \begin{pmatrix}
 a & b \\
-c & d
+c & d \\
 \end{pmatrix}
 $$
 
@@ -47,7 +47,7 @@ $$
 $$
 
 $$
-\boxed{\det(A)=2}
+\det(A)=2
 $$
 
 Since the determinant is not zero, the inverse exists.
@@ -61,7 +61,7 @@ A^{-1}=
 \frac{1}{ad-bc}
 \begin{pmatrix}
 d & -b \\
--c & a
+-c & a \\
 \end{pmatrix}
 $$
 
@@ -72,20 +72,18 @@ A^{-1}=
 \frac{1}{2}
 \begin{pmatrix}
 4 & -2 \\
--5 & 3
+-5 & 3 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{
 A^{-1}=
 \begin{pmatrix}
 2 & -1 \\
--\frac{5}{2} & \frac{3}{2}
+-\frac{5}{2} & \frac{3}{2} \\
 \end{pmatrix}
-}
 $$
 
 ### 3. Verify the result
@@ -96,34 +94,32 @@ $$
 AA^{-1}=
 \begin{pmatrix}
 3 & 2 \\
-5 & 4
+5 & 4 \\
 \end{pmatrix}
 \begin{pmatrix}
 2 & -1 \\
--\frac{5}{2} & \frac{3}{2}
+-\frac{5}{2} & \frac{3}{2} \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 6-5 & -3+3 \\
-10-10 & -5+6
+10-10 & -5+6 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 1 & 0 \\
-0 & 1
+0 & 1 \\
 \end{pmatrix}
 $$
 
 Thus:
 
 $$
-\boxed{AA^{-1}=I}
+AA^{-1}=I
 $$
 
 ### 4. Conclusion

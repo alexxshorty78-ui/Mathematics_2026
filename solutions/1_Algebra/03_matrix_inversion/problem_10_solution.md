@@ -7,16 +7,16 @@ Given:
 $$
 D=
 \begin{pmatrix}
-2&0&0\\
-0&-3&0\\
-0&0&5
+2&0&0 \\
+0&-3&0 \\
+0&0&5 \\
 \end{pmatrix},
 \qquad
 E=
 \begin{pmatrix}
-2&0&0\\
-0&0&0\\
-0&0&5
+2&0&0 \\
+0&0&0 \\
+0&0&5 \\
 \end{pmatrix}
 $$
 
@@ -41,9 +41,9 @@ Therefore:
 $$
 D^{-1}=
 \begin{pmatrix}
-\frac12&0&0\\
-0&-\frac13&0\\
-0&0&\frac15
+\frac12&0&0 \\
+0&-\frac13&0 \\
+0&0&\frac15 \\
 \end{pmatrix}
 $$
 
@@ -53,26 +53,24 @@ Multiply $D$ by $D^{-1}$:
 
 $$
 DD^{-1}
-=
-\begin{pmatrix}
-2&0&0\\
-0&-3&0\\
-0&0&5
+= \begin{pmatrix}
+2&0&0 \\
+0&-3&0 \\
+0&0&5 \\
 \end{pmatrix}
 \begin{pmatrix}
-\frac12&0&0\\
-0&-\frac13&0\\
-0&0&\frac15
+\frac12&0&0 \\
+0&-\frac13&0 \\
+0&0&\frac15 \\
 \end{pmatrix}
 $$
 
 $$
 DD^{-1}
-=
-\begin{pmatrix}
-1&0&0\\
-0&1&0\\
-0&0&1
+= \begin{pmatrix}
+1&0&0 \\
+0&1&0 \\
+0&0&1 \\
 \end{pmatrix}
 =I
 $$

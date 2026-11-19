@@ -2,13 +2,13 @@
 
 ## Question
 
-Compute
+Compute the determinant of
 
 $$
-\det\begin{pmatrix}
+A = \begin{pmatrix}
 1 & 2 & 3 \\
 1 & 3 & 4 \\
-1 & 4 & 6
+1 & 4 & 6 \\
 \end{pmatrix}
 $$
 
@@ -32,7 +32,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 3 \\
 0 & 1 & 1 \\
-0 & 2 & 3
+0 & 2 & 3 \\
 \end{pmatrix}
 $$
 
@@ -48,7 +48,7 @@ $$
 \begin{pmatrix}
 1 & 2 & 3 \\
 0 & 1 & 1 \\
-0 & 0 & 1
+0 & 0 & 1 \\
 \end{pmatrix}
 $$
 
@@ -63,7 +63,7 @@ $$
 Therefore:
 
 $$
-\boxed{\det(A) = 1}
+\det(A) = 1
 $$
 
 ## Conclusion

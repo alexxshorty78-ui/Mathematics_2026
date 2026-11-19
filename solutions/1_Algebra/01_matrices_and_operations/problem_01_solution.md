@@ -7,17 +7,17 @@ Given the matrices:
 $$
 A = \begin{pmatrix}
 2 & -1 & 3 \\
-0 & 4 & 5
+0 & 4 & 5 \\
 \end{pmatrix}, \quad
 B = \begin{pmatrix}
 1 & 0 \\
 -2 & 3 \\
-4 & 1
+4 & 1 \\
 \end{pmatrix}
 $$
 
 1. State the sizes of matrices $A$ and $B$.
-2. Read off the entries $a_{12}$, $a_{23}$, $b_{21}$, and $b_{32}$ (where $b_{32} = 1$).
+2. Read off the entries $a_{12}$, $a_{23}$, $b_{21}$, and $b_{32}$.
 3. Write the second row of $A$ and the first column of $B$ as vectors.
 
 *Why this exercise:* builds basic fluency with matrix notation, indices, rows, and columns.
@@ -35,8 +35,23 @@ Using standard row-column index notation ($a_{ij}$ represents the entry in row $
 * $a_{12} = -1$ (element in the 1st row, 2nd column of $A$)
 * $a_{23} = 5$ (element in the 2nd row, 3rd column of $A$)
 * $b_{21} = -2$ (element in the 2nd row, 1st column of $B$)
-* $b_{32} = 1$ (element in the 3rd row, 2nd column of $B$, as supplied)
+* $b_{32} = 1$ (element in the 3rd row, 2nd column of $B$)
 
 #### 3. Rows and Columns as Vectors
-* The second row of $A$ expressed as a row vector is $\begin{pmatrix} 0 & 4 & 5 \end{pmatrix}$.
-* The first column of $B$ expressed as a column vector is $\begin{pmatrix} 1 \\ -2 \\ 4 \end{pmatrix}$.
+The second row of $A$ is
+
+$$
+\begin{pmatrix}
+0 & 4 & 5 \\
+\end{pmatrix}.
+$$
+
+The first column of $B$ is
+
+$$
+\begin{pmatrix}
+1 \\
+-2 \\
+4 \\
+\end{pmatrix}.
+$$

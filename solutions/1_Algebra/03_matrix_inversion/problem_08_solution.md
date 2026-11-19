@@ -7,8 +7,8 @@ The matrix is:
 $$
 S=
 \begin{pmatrix}
-2&0\\
-0&\frac12
+2&0 \\
+0&\frac12 \\
 \end{pmatrix}
 $$
 
@@ -23,7 +23,7 @@ $$
 $$
 
 $$
-\boxed{\det(S)=1}
+\det(S)=1
 $$
 
 Since the determinant is not zero, the inverse exists.
@@ -36,21 +36,19 @@ $$
 S^{-1}=
 \frac{1}{1}
 \begin{pmatrix}
-\frac12&0\\
-0&2
+\frac12&0 \\
+0&2 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{
 S^{-1}=
 \begin{pmatrix}
-\frac12&0\\
-0&2
+\frac12&0 \\
+0&2 \\
 \end{pmatrix}
-}
 $$
 
 ### 3. Geometric Meaning
@@ -72,7 +70,10 @@ It returns the point to its original position.
 Choose:
 
 $$
-v=\begin{pmatrix}2\\4\end{pmatrix}
+v=\begin{pmatrix}
+2 \\
+4 \\
+\end{pmatrix}
 $$
 
 First, apply S:
@@ -80,15 +81,21 @@ First, apply S:
 $$
 Sv=
 \begin{pmatrix}
-2&0\\
-0&\frac12
+2&0 \\
+0&\frac12 \\
 \end{pmatrix}
-\begin{pmatrix}2\\4\end{pmatrix}
+\begin{pmatrix}
+2 \\
+4 \\
+\end{pmatrix}
 $$
 
 $$
 Sv=
-\begin{pmatrix}4\\2\end{pmatrix}
+\begin{pmatrix}
+4 \\
+2 \\
+\end{pmatrix}
 $$
 
 Now apply the inverse:
@@ -96,21 +103,27 @@ Now apply the inverse:
 $$
 S^{-1}(Sv)=
 \begin{pmatrix}
-\frac12&0\\
-0&2
+\frac12&0 \\
+0&2 \\
 \end{pmatrix}
-\begin{pmatrix}4\\2\end{pmatrix}
+\begin{pmatrix}
+4 \\
+2 \\
+\end{pmatrix}
 $$
 
 $$
 S^{-1}(Sv)=
-\begin{pmatrix}2\\4\end{pmatrix}
+\begin{pmatrix}
+2 \\
+4 \\
+\end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{S^{-1}Sv=v}
+S^{-1}Sv=v
 $$
 
 ### 5. Conclusion

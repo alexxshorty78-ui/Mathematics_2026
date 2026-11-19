@@ -7,14 +7,14 @@ The matrices
 $$
 S=
 \begin{pmatrix}
-2&0\\
-0&1
+2&0 \\
+0&1 \\
 \end{pmatrix},
 \qquad
 H=
 \begin{pmatrix}
-1&1\\
-0&1
+1&1 \\
+0&1 \\
 \end{pmatrix}
 $$
 
@@ -36,20 +36,20 @@ $$
 $$
 T=
 \begin{pmatrix}
-1&1\\
-0&1
+1&1 \\
+0&1 \\
 \end{pmatrix}
 \begin{pmatrix}
-2&0\\
-0&1
+2&0 \\
+0&1 \\
 \end{pmatrix}
 $$
 
 $$
 T=
 \begin{pmatrix}
-2&1\\
-0&1
+2&1 \\
+0&1 \\
 \end{pmatrix}
 $$
 
@@ -67,24 +67,21 @@ Using the inverse formula:
 
 $$
 T^{-1}
-=
-\frac12
+= \frac12
 \begin{pmatrix}
-1&-1\\
-0&2
+1&-1 \\
+0&2 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{
 T^{-1}=
 \begin{pmatrix}
-\frac12&-\frac12\\
-0&1
+\frac12&-\frac12 \\
+0&1 \\
 \end{pmatrix}
-}
 $$
 
 ### 3. Find the Inverse Using the Product Rule
@@ -100,8 +97,8 @@ First, calculate the inverse of S:
 $$
 S^{-1}=
 \begin{pmatrix}
-\frac12&0\\
-0&1
+\frac12&0 \\
+0&1 \\
 \end{pmatrix}
 $$
 
@@ -110,8 +107,8 @@ Now, calculate the inverse of H:
 $$
 H^{-1}=
 \begin{pmatrix}
-1&-1\\
-0&1
+1&-1 \\
+0&1 \\
 \end{pmatrix}
 $$
 
@@ -119,35 +116,31 @@ Multiply them in the correct order:
 
 $$
 S^{-1}H^{-1}
-=
-\begin{pmatrix}
-\frac12&0\\
-0&1
+= \begin{pmatrix}
+\frac12&0 \\
+0&1 \\
 \end{pmatrix}
 \begin{pmatrix}
-1&-1\\
-0&1
+1&-1 \\
+0&1 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
-\frac12&-\frac12\\
-0&1
+= \begin{pmatrix}
+\frac12&-\frac12 \\
+0&1 \\
 \end{pmatrix}
 $$
 
 Thus:
 
 $$
-\boxed{
 S^{-1}H^{-1}=
 \begin{pmatrix}
-\frac12&-\frac12\\
-0&1
+\frac12&-\frac12 \\
+0&1 \\
 \end{pmatrix}
-}
 $$
 
 Both methods give the same result:
@@ -162,22 +155,20 @@ Now calculate the reversed order:
 
 $$
 H^{-1}S^{-1}
-=
-\begin{pmatrix}
-1&-1\\
-0&1
+= \begin{pmatrix}
+1&-1 \\
+0&1 \\
 \end{pmatrix}
 \begin{pmatrix}
-\frac12&0\\
-0&1
+\frac12&0 \\
+0&1 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
-\frac12&-1\\
-0&1
+= \begin{pmatrix}
+\frac12&-1 \\
+0&1 \\
 \end{pmatrix}
 $$
 
@@ -195,22 +186,20 @@ Multiply T by its correct inverse:
 
 $$
 TT^{-1}
-=
-\begin{pmatrix}
-2&1\\
-0&1
+= \begin{pmatrix}
+2&1 \\
+0&1 \\
 \end{pmatrix}
 \begin{pmatrix}
-\frac12&-\frac12\\
-0&1
+\frac12&-\frac12 \\
+0&1 \\
 \end{pmatrix}
 $$
 
 $$
-=
-\begin{pmatrix}
-1&0\\
-0&1
+= \begin{pmatrix}
+1&0 \\
+0&1 \\
 \end{pmatrix}
 =I
 $$
@@ -224,11 +213,18 @@ $$
 The incorrect order does not give the identity matrix:
 
 $$
-T(H^{-1}S^{-1})
-=
+T(H^{-1}S^{-1})=
 \begin{pmatrix}
-\frac12&-1\\
-0&1
+2 & 1 \\
+0 & 1 \\
+\end{pmatrix}
+\begin{pmatrix}
+\frac12 & -1 \\
+0 & 1 \\
+\end{pmatrix}
+= \begin{pmatrix}
+1 & -1 \\
+0 & 1 \\
 \end{pmatrix}
 \neq I
 $$
@@ -242,9 +238,7 @@ To undo this composition, we must first undo $H$ using $H^{-1}$ and then undo $S
 This is why the order of the matrices is reversed when taking the inverse of a product:
 
 $$
-\boxed{
 (HS)^{-1}=S^{-1}H^{-1}
-}
 $$
 
 **Conclusion**
@@ -252,13 +246,11 @@ $$
 Both methods give the same inverse matrix:
 
 $$
-\boxed{
 T^{-1}=
 \begin{pmatrix}
-\frac12&-\frac12\\
-0&1
+\frac12&-\frac12 \\
+0&1 \\
 \end{pmatrix}
-}
 $$
 
 The incorrect order gives a different matrix and does not produce the identity when multiplied by $T$. This confirms that the order must be reversed when undoing a composition of transformations.

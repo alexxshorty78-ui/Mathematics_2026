@@ -5,9 +5,15 @@
 The vectors are:
 
 $$
-u = \begin{pmatrix} 3 \\ 1 \end{pmatrix},
+u = \begin{pmatrix}
+3 \\
+1 \\
+\end{pmatrix},
 \quad
-v = \begin{pmatrix} 1 \\ 4 \end{pmatrix}
+v = \begin{pmatrix}
+1 \\
+4 \\
+\end{pmatrix}
 $$
 
 They span a parallelogram. Compute its area using a determinant. Then reverse the order of the vectors and explain what changes in the determinant and what does not change in the area.
@@ -21,7 +27,7 @@ To calculate the area of the parallelogram, we use the determinant of the matrix
 $$
 A = \begin{pmatrix}
 3 & 1 \\
-1 & 4
+1 & 4 \\
 \end{pmatrix}
 $$
 
@@ -44,7 +50,7 @@ $$
 The area is the absolute value of the determinant:
 
 $$
-\text{Area} = |11| = 11
+|11| = 11
 $$
 
 ### 2. Reversing the Order of the Vectors
@@ -54,7 +60,7 @@ After reversing the vectors, the matrix becomes:
 $$
 B = \begin{pmatrix}
 1 & 3 \\
-4 & 1
+4 & 1 \\
 \end{pmatrix}
 $$
 
@@ -71,7 +77,7 @@ $$
 The new area is:
 
 $$
-\text{Area} = |-11| = 11
+|-11| = 11
 $$
 
 ### 3. Conclusion

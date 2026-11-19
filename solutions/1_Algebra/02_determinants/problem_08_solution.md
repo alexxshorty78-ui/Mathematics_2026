@@ -33,7 +33,7 @@ $$
 $$
 
 $$
-\boxed{\det(AB)=-15}
+\det(AB)=-15
 $$
 
 ### 2. Determinant of BA
@@ -51,7 +51,7 @@ $$
 $$
 
 $$
-\boxed{\det(BA)=-15}
+\det(BA)=-15
 $$
 
 ### 3. Determinant of A^{-1}B
@@ -77,7 +77,7 @@ $$
 $$
 
 $$
-\boxed{\det(A^{-1}B)=-\frac{5}{3}}
+\det(A^{-1}B)=-\frac{5}{3}
 $$
 
 ### 4. Comparison and Explanation

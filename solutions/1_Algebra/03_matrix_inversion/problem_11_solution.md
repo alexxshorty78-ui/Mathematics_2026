@@ -7,8 +7,8 @@ For the matrix:
 $$
 A(t)=
 \begin{pmatrix}
-1&t\\
-t&1
+1&t \\
+t&1 \\
 \end{pmatrix}
 $$
 
@@ -28,10 +28,10 @@ For the given matrix:
 
 $$
 \det(A(t))=
-\begin{vmatrix}
-1&t\\
-t&1
-\end{vmatrix}
+\det\begin{pmatrix}
+1&t \\
+t&1 \\
+\end{pmatrix}
 $$
 
 $$
@@ -39,7 +39,7 @@ $$
 $$
 
 $$
-\boxed{\det(A(t))=1-t^2}
+\det(A(t))=1-t^2
 $$
 
 ### 2. Find the Values of t
@@ -57,7 +57,7 @@ $$
 Therefore:
 
 $$
-\boxed{t\neq 1,\quad t\neq -1}
+t\neq 1,\quad t\neq -1
 $$
 
 The matrix is invertible for all other values of t.
@@ -70,8 +70,8 @@ $$
 A^{-1}=
 \frac{1}{ad-bc}
 \begin{pmatrix}
-d&-b\\
--c&a
+d&-b \\
+-c&a \\
 \end{pmatrix}
 $$
 
@@ -81,22 +81,20 @@ $$
 A(t)^{-1}=
 \frac{1}{1-t^2}
 \begin{pmatrix}
-1&-t\\
--t&1
+1&-t \\
+-t&1 \\
 \end{pmatrix}
 $$
 
 Therefore:
 
 $$
-\boxed{
 A(t)^{-1}=
 \frac{1}{1-t^2}
 \begin{pmatrix}
-1&-t\\
--t&1
+1&-t \\
+-t&1 \\
 \end{pmatrix}
-}
 $$
 
 For:
@@ -112,8 +110,8 @@ When t = 1:
 $$
 A(1)=
 \begin{pmatrix}
-1&1\\
-1&1
+1&1 \\
+1&1 \\
 \end{pmatrix}
 $$
 
@@ -126,8 +124,8 @@ When t = -1:
 $$
 A(-1)=
 \begin{pmatrix}
-1&-1\\
--1&1
+1&-1 \\
+-1&1 \\
 \end{pmatrix}
 $$
 
@@ -140,20 +138,18 @@ Therefore, the determinant is zero and the inverse does not exist.
 The matrix is invertible when:
 
 $$
-\boxed{t\neq 1,\quad t\neq -1}
+t\neq 1,\quad t\neq -1
 $$
 
 Its inverse is:
 
 $$
-\boxed{
 A(t)^{-1}=
 \frac{1}{1-t^2}
 \begin{pmatrix}
-1&-t\\
--t&1
+1&-t \\
+-t&1 \\
 \end{pmatrix}
-}
 $$
 
-At t = 1 and t = -1, the inverse does not exist because the determinant is zero.
+At $t=1$ and $t=-1$, the denominator $1-t^2$ vanishes, so the inverse formula is undefined. The row dependence at both values confirms that the matrix has no inverse.
